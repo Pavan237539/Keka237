@@ -10,7 +10,7 @@ public class PageController {
 	@RequestMapping(value="/hello")
 	public ModelAndView Hello(){
 		ModelAndView mv=new ModelAndView("page");
-		mv.addObject("greeting", "Hello Spring MVC!!");
+		mv.addObject("Greeting", "Hello Spring MVC!!");
 		return mv;
 		
 	}
